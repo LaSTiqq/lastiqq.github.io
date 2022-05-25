@@ -1,0 +1,131 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+.navbar-nav {
+	font-family: 'Oswald', sans-serif;
+}
+.navbar-brand img {
+	width: 160px;
+	height: 80px;
+	transition: height 0.33s, width 0.33s;
+}
+.row-1-col-1 img {
+	width: 480px;
+	height: 805px;
+}
+.row-1-col-2 {
+	background-color: #44449b;
+}
+.row-1-col-2 h1 {
+	color: #fff;
+	font-family: Georgia, serif;
+	margin-top: 525px;
+}
+.row-1-col-3 {
+	background-color: #212221;
+}
+.row-1-col-3 h3 {
+	color: #fff;
+	line-height: 1.6;
+	letter-spacing: 10px;
+	margin-top: 40px;
+}
+.row-1-col-3 img {
+	width: 441px;
+	height: 360px;
+	margin-top: 165px;
+}
+/***************************************/
+.row-2-col-1 {
+	background-color: #bec3be;
+	width: 951.5px;
+	height: 805px;
+}
+.row-2-col-1 h1 {
+	font-family: Georgia, serif;
+	font-size: 48px;
+	margin-left: 185px;
+	margin-top: 135px;
+}
+.row-2-col-1 h5 {
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	line-height: 1.6;
+	margin-left: 185px;
+	margin-top: 40px;
+}
+.row-2-col-1 p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	margin-left: 185px;
+	margin-top: 15px;
+}
+.row-2-col-1 button {
+	margin-left: 475px;
+	margin-top: 15px;
+}
+.row-2-col-2 {
+	background-color: #44449b;
+	width: 340px;
+}
+.row-2-col-2 img {
+	height: 651px;
+	width: 375px;
+	position: relative;
+	right: 155px;
+	top: -55px;
+	object-fit: cover;
+}
+.row-2-col-3 {
+	background-color: #bec3be;
+	width: 611.5px;
+}
+.row-2-col-3 img {
+	height: 340px;
+	width: 433px;
+	position: relative;
+	left: -85px;
+	top: 340px;
+	object-fit: cover;
+}
+/**********************************/
+.row-3-col-1 {
+	background-color: #212221;
+	width: 625px;
+	height: 805px;
+}
+.row-3-col-2 {
+	background-color: #44449b;
+	width: 327px;
+}
+.row-3-col-2 img {
+	width: 585px;
+	height: 447px;
+	position: relative;
+	top: 130px;
+	right: 255px;
+}
+.row-3-col-3 {
+	background-color: #212221;
+	width: 938px;
+}
+.row-3-col-3 h1 {
+	font-size: 24px;
+	color: #fff;
+	letter-spacing: 10px;
+	line-height: 1.6;
+	text-transform: uppercase;
+	margin-top: 275px;
+}
+.row-3-col-3 p {
+	font-size: 18px;
+	color: #fff;
+}
+/* 
+	#44449b - Dark Blue
+	#212221 - Dark Gray
+	#bec3be - Light Gray
+
+	#5247e8 - Medium Blue (Logo)
+	#241d7a - Dark Blue (Logo)
+*/
