@@ -34,7 +34,6 @@ nav ul li a {
 }
 /****** ROW 1 ******/
 .row-1-col-1 img {
-  width: 480px;
   height: 805px;
 }
 .row-1-col-2 {
@@ -42,9 +41,9 @@ nav ul li a {
 }
 .row-1-col-2 h1 {
   color: #fff;
+  font-size: 45px;
   font-family: Georgia, serif;
   margin-top: 500px;
-  font-size: 45px;
 }
 .row-1-col-3 {
   background-color: #212221;
@@ -66,29 +65,29 @@ nav ul li a {
   height: 865px;
 }
 .row-2-col-1 h1 {
-  font-family: Georgia, serif;
   font-size: 48px;
+  font-family: Georgia, serif;
   text-transform: capitalize;
-  margin-left: 125px;
   margin-top: 100px;
+  margin-left: 125px;
 }
 .row-2-col-1 h5 {
-  letter-spacing: 10px;
   text-transform: uppercase;
+  letter-spacing: 10px;
   line-height: 1.6;
-  margin-left: 125px;
   margin-top: 40px;
+  margin-left: 125px;
 }
 .row-2-col-1 p {
-  font-family: "Open Sans", sans-serif;
   font-size: 17px;
-  margin-left: 125px;
+  font-family: "Open Sans", sans-serif;
   margin-top: 15px;
+  margin-left: 125px;
 }
 .row-2-col-1 button {
   border-radius: 0;
-  margin-left: 440px;
   margin-top: 15px;
+  margin-left: 440px;
 }
 .row-2-col-2 {
   background-color: #44449b;
@@ -96,10 +95,10 @@ nav ul li a {
 .row-2-col-2 img {
   height: 651px;
   width: 375px;
+  object-fit: cover;
   position: relative;
   right: 185px;
   bottom: 60px;
-  object-fit: cover;
 }
 .row-2-col-3 {
   background-color: #bec3be;
@@ -107,15 +106,15 @@ nav ul li a {
 .row-2-col-3 img {
   width: 350px;
   height: 435px;
+  object-fit: cover;
   position: relative;
   top: 275px;
   right: 90px;
-  object-fit: cover;
 }
 /****** ROW 3 ******/
 .row-3-col-1 {
-  background-color: #212221;
   height: 700px;
+  background-color: #212221;
 }
 .row-3-col-2 {
   background-color: #44449b;
@@ -131,11 +130,11 @@ nav ul li a {
   background-color: #212221;
 }
 .row-3-col-3 h1 {
-  font-size: 20px;
   color: #fff;
-  letter-spacing: 10px;
-  line-height: 1.6;
+  font-size: 20px;
   text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: 10px;
   margin: 190px 0 0 25px;
 }
 .row-3-col-3 p {
@@ -144,9 +143,9 @@ nav ul li a {
   margin-top: 30px;
 }
 .row-3-col-3 button {
-  background-color: #44449b;
   border: none;
   border-radius: 0;
+  background-color: #44449b;
 }
 .row-3-col-4 {
   background-color: #212221;
@@ -158,32 +157,31 @@ nav ul li a {
   object-fit: cover;
 }
 .row-4-col-2 {
-  background-color: #44449b;
   height: 650px;
+  background-color: #44449b;
 }
-.row-4-col-2 h2 {
+.row-4-col-2 h1 {
   color: #fff;
-  font-family: Georgia, serif;
   font-size: 44px;
+  font-family: Georgia, serif;
   margin: 180px 13px 0 13px;
 }
 .row-4-col-3 img {
-  width: 480px;
   height: 650px;
 }
 /****** ROW 5 ******/
 .row-5-col-1 {
-  background-color: #bec3be;
   height: 715px;
+  background-color: #bec3be;
 }
 .row-5-col-1 p {
-  margin: 115px 50px 0 375px;
   font-size: 18px;
+  margin: 115px 50px 0 375px;
 }
 .row-5-col-1 button {
-  margin: 15px 50px 0 375px;
-  background-color: #44449b;
   border-radius: 0;
+  background-color: #44449b;
+  margin: 15px 50px 0 375px;
 }
 .row-5-col-1 img {
   width: 289px;
@@ -208,49 +206,29 @@ nav ul li a {
 .row-5-col-3 h5,
 .row-5-col-3 p {
   position: relative;
+  top: 130px;
+  right: 225px;
 }
 .row-5-col-3 h1 {
-  font-family: Georgia, serif;
   font-size: 48px;
-  margin-left: 185px;
-  margin-top: 100px;
-  top: 70px;
-  right: 240px;
+  font-family: Georgia, serif;
 }
 .row-5-col-3 h5 {
   font-size: 22px;
-  letter-spacing: 10px;
   text-transform: uppercase;
   line-height: 1.6;
-  margin-left: 185px;
+  letter-spacing: 10px;
   margin-top: 20px;
-  top: 70px;
-  right: 280px;
 }
 .row-5-col-3 p {
-  font-family: "Open Sans", sans-serif;
   font-size: 17px;
-  margin-left: 185px;
+  font-family: "Open Sans", sans-serif;
   margin-top: 15px;
-  top: 70px;
-  right: 200px;
-}
-.row-5-col-3 h5.second-h5 {
-  right: 250px;
-}
-.row-5-col-3 p.second-p {
-  right: 145px;
-}
-.row-5-col-3 h5.third-h5 {
-  right: 255px;
-}
-.row-5-col-3 p.third-p {
-  right: 200px;
 }
 /****** ROW 6 ******/
 .row-6-col-1 {
-  background-color: #212221;
   height: 600px;
+  background-color: #212221;
 }
 .row-6-col-2 {
   background-color: #44449b;
@@ -268,16 +246,16 @@ nav ul li a {
 }
 .row-6-col-3 h1 {
   color: #fff;
-  font-family: Georgia, serif;
   font-size: 56px;
+  font-family: Georgia, serif;
   margin-top: 135px;
   margin-left: 35px;
 }
 .row-6-col-3 h5 {
   color: #fff;
-  letter-spacing: 10px;
-  line-height: 1.6;
   text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: 10px;
   margin-left: 35px;
 }
 .row-6-col-3 p {
@@ -317,7 +295,6 @@ nav ul li a {
   }
   .row-1-col-3 img {
     width: 400px;
-    height: 360px;
   }
   /****** ROW 2 ******/
   .row-2-col-1 h1,
@@ -354,7 +331,7 @@ nav ul li a {
     width: 400px;
     height: 490px;
     top: 130px;
-    right: 154px;
+    right: 152px;
   }
   .row-3-col-3 h1 {
     font-size: 16px;
@@ -365,7 +342,7 @@ nav ul li a {
     margin-right: 15px;
   }
   /****** ROW 4 ******/
-  .row-4-col-2 h2 {
+  .row-4-col-2 h1 {
     font-size: 34px;
     margin: 200px 13px 0 13px;
   }
@@ -374,7 +351,7 @@ nav ul li a {
     margin: 150px 0 0 25px;
   }
   .row-5-col-1 button {
-    margin: -275px 0 0 25px;
+    margin: -330px 0 0 25px;
   }
   .row-5-col-1 img {
     width: 230px;
@@ -385,29 +362,22 @@ nav ul li a {
   .row-5-col-2 img {
     width: 255px;
     height: 400px;
-    bottom: 55px;
     right: 125px;
+    bottom: 55px;
+  }
+  .row-5-col-3 h1,
+  .row-5-col-3 h5,
+  .row-5-col-3 p {
+    right: 80px;
   }
   .row-5-col-3 h1 {
     font-size: 36px;
-    top: 0;
   }
   .row-5-col-3 h5 {
     font-size: 18px;
-    top: 0;
   }
   .row-5-col-3 p {
     font-size: 17px;
-    top: 0;
-    right: 235px;
-  }
-  .row-5-col-3 h5.second-h5,
-  .row-5-col-3 h5.third-h5 {
-    right: 270px;
-  }
-  .row-5-col-3 p.second-p,
-  .row-5-col-3 p.third-p {
-    right: 230px;
   }
   /****** ROW 6 ******/
   .row-6-col-2 img {
@@ -427,80 +397,90 @@ nav ul li a {
 
 /* Extra large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  /****** ROW 1 ******/
+  .row-1-col-2 h1 {
+    margin-top: 525px;
+  }
+  .row-1-col-3 h3 {
+    font-size: 22px;
+    margin-top: 80px;
+  }
+  .row-1-col-3 img {
+    width: 400px;
+    height: 319px;
+  }
   /****** ROW 2 ******/
   .row-2-col-1 h1,
   .row-2-col-1 h5,
   .row-2-col-1 p {
-    margin-left: -135px;
+    margin-right: 150px;
+    margin-left: -20px;
+  }
+  .row-2-col-1 h1 {
+    font-size: 48px;
+  }
+  .row-2-col-1 h5 {
+    font-size: 18px;
   }
   .row-2-col-1 button {
-    margin-left: 160px;
+    margin-left: 110px;
   }
   .row-2-col-2 img {
+    width: 325px;
+    height: 575px;
     right: 170px;
     bottom: 120px;
   }
   .row-2-col-3 img {
-    top: 290px;
-    right: 75px;
+    width: 275px;
+    height: 350px;
+    top: 250px;
+    right: 100px;
   }
   /****** ROW 3 ******/
   .row-3-col-2 img {
-    width: 545px;
-    height: 490px;
-    top: 130px;
-    right: 242px;
+    width: 520px;
+    height: 500px;
+    top: 100px;
+    right: 224px;
   }
   .row-3-col-3 h1 {
     margin: 200px 0 0 10px;
   }
   /****** ROW 4 ******/
-  .row-4-col-1 img {
-    width: 665px;
-    background-size: cover;
-  }
-  .row-4-col-2 h2 {
-    margin: 125px 13px 0 13px;
-  }
-  .row-4-col-3 img {
-    width: 331.75px;
+  .row-4-col-2 h1 {
+    font-size: 34px;
+    margin: 265px 13px 0 13px;
   }
   /****** ROW 5 ******/
   .row-5-col-1 p {
-    margin: 25px 0 0 50px;
+    margin: 150px 0 0 50px;
   }
   .row-5-col-1 button {
-    margin: -400px 0 0 50px;
+    margin: -325px 0 0 50px;
   }
   .row-5-col-1 img {
     width: 230px;
     height: 250px;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: -35px;
   }
   .row-5-col-2 img {
     width: 320px;
     height: 500px;
-    bottom: 55px;
     right: 175px;
+    bottom: 55px;
   }
   .row-5-col-3 h1 {
     font-size: 40px;
-    right: 220px;
   }
   .row-5-col-3 h5 {
     font-size: 18px;
   }
+  .row-5-col-3 h1,
+  .row-5-col-3 h5,
   .row-5-col-3 p {
-    right: 230px;
-  }
-  .row-5-col-3 h5.second-h5,
-  .row-5-col-3 h5.third-h5 {
-    right: 250px;
-  }
-  .row-5-col-3 p.second-p,
-  .row-5-col-3 p.third-p {
-    right: 210px;
+    right: 110px;
   }
   /****** ROW 6 ******/
   .row-6-col-2 img {
