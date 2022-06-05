@@ -282,6 +282,126 @@ nav ul li a {
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /****** ROW 1 ******/
+  .row-1-col-1 img {
+    object-fit: cover;
+  }
+  .row-1-col-2 h1 {
+    font-size: 35px;
+  }
+  .row-1-col-3 h3 {
+    font-size: 23px;
+  }
+  .row-1-col-3 img {
+    width: 300px;
+    object-fit: cover;
+  }
+  /****** ROW 2 ******/
+  .row-2-col-1 h1,
+  .row-2-col-1 h5,
+  .row-2-col-1 p {
+    margin-left: -25px;
+  }
+  .row-2-col-1 h1 {
+    font-size: 32px;
+    margin-top: 140px;
+  }
+  .row-2-col-1 h5 {
+    font-size: 14px;
+  }
+  .row-2-col-1 p {
+    font-size: 13px;
+  }
+  .row-2-col-1 button {
+    margin-left: 90px;
+  }
+  .row-2-col-2 img {
+    width: 200px;
+    height: 400px;
+    right: 75px;
+    bottom: 120px;
+  }
+  .row-2-col-3 img {
+    width: 215px;
+    height: 290px;
+    top: 200px;
+    right: 50px;
+  }
+  /****** ROW 3 ******/
+  .row-3-col-2 img {
+    width: 350px;
+    height: 470px;
+    object-fit: cover;
+    top: 130px;
+    right: 154px;
+  }
+  .row-3-col-3 h1 {
+    font-size: 16px;
+    margin: 190px 0 0 10px;
+  }
+  .row-3-col-3 p {
+    font-size: 16px;
+  }
+  .row-3-col-3 button {
+    margin-top: 40px;
+  }
+  /****** ROW 4 ******/
+  .row-4-col-1 img,
+  .row-4-col-2, 
+  .row-4-col-3 img {
+    height: 500px;
+  }
+  .row-4-col-2 h1 {
+    font-size: 30px;
+    margin: 100px 10px 0 5px;
+  }
+  /****** ROW 5 ******/
+  .row-5-col-1 p {
+    margin: 150px 100px 0 25px;
+  }
+  .row-5-col-1 button {
+    margin: -300px 0 0 25px;
+  }
+  .row-5-col-1 img {
+    width: 230px;
+    height: 270px;
+    margin-top: 100px;
+    margin-left: -35px;
+  }
+  .row-5-col-2 img {
+    width: 240px;
+    height: 370px;
+    right: 125px;
+    bottom: 55px;
+  }
+  .row-5-col-3 h1,
+  .row-5-col-3 h5,
+  .row-5-col-3 p {
+    right: 60px;
+  }
+  .row-5-col-3 h1 {
+    font-size: 36px;
+  }
+  .row-5-col-3 h5 {
+    font-size: 18px;
+  }
+  .row-5-col-3 p {
+    font-size: 17px;
+  }
+  /****** ROW 6 ******/
+  .row-6-col-2 img {
+    width: 350px;
+    right: 152px;
+  }
+  .row-6-col-3 h1 {
+    font-size: 36px;
+  }
+  .row-6-col-3 h5 {
+    font-size: 15px;
+  }
+  .row-6-col-3 p {
+    font-size: 14px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -335,11 +455,10 @@ nav ul li a {
   }
   .row-3-col-3 h1 {
     font-size: 16px;
-    margin: 200px 0 0 0;
+    margin-top: 200px;
   }
   .row-3-col-3 p {
     font-size: 18px;
-    margin-right: 15px;
   }
   /****** ROW 4 ******/
   .row-4-col-2 h1 {
