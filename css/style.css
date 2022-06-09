@@ -274,21 +274,269 @@ nav ul li a {
 /****** ADAPTIVE ******/
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  #rectangle,
+  #rectangle-2,
+  #rectangle-3,
+  #rectangle-4 {
+    background-color: #44449b;
+    width: 120px;
+    height: 1775px;
+    position: absolute;
+    margin-right: 25px;
+    z-index: 1;
+  }
+  #rectangle-2 {
+    height: 879.34px;
+  }
+  #rectangle-3 {
+    height: 1460px;
+  }
+  #rectangle-4 {
+    height: 818.88px;
+  }
+  /****** ROW 1 ******/
+  .row-1-col-2 {
+    height: 225px;
+  }
+  .row-1-col-1 img {
+    height: auto;
+  }
+  .row-1-col-2 h1 {
+    margin-top: 53px;
+  }
+  .row-1-col-3 {
+    height: 600px;
+  }
+  .row-1-col-3 img {
+    width: 300px;
+    height: 219px;
+    margin-top: 120px;
+  }
+  .row-1-col-3 h3 {
+    font-size: 22px;
+  }
+  /****** ROW 2 ******/
+  .row-2-col-1 {
+    height: 650px;
+  }
+  .row-2-col-1 h1,
+  .row-2-col-1 h5,
+  .row-2-col-1 p,
+  .row-2-col-1 button {
+    position: relative;
+    z-index: 5;
+  }
+  .row-2-col-1 h1,
+  .row-2-col-1 h5,
+  .row-2-col-1 p {
+    margin-left: 0;
+  }
+  .row-2-col-1 h1 {
+    font-size: 36px;
+    margin-top: 35px;
+  }
+  .row-2-col-1 h5 {
+    font-size: 18px;
+  }
+  .row-2-col-1 p {
+    font-size: 17px;
+  }
+  .row-2-col-1 button {
+    margin-left: 90px;
+  }
+  .row-2-col-2 {
+    background-color: #bec3be;
+  }
+  .row-2-col-2 img,
+  .row-2-col-3 img {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+  .row-2-col-2 img {
+    width: 310px;
+    height: 510px;
+    display: block;
+    margin: 50px 25px 0 auto;
+  }
+  .row-2-col-3 img {
+    width: 310px;
+    height: 435px;
+    display: block;
+    margin: 65px 25px 65px auto;
+  }
+  /****** ROW 3 ******/
+  .row-3-col-1 {
+    display: none;
+  }
+  .row-3-col-2 {
+    background-color: #212221;
+  }
+  .row-3-col-2 img {
+    width: 310px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 65px 25px 65px auto;
+  }
+  .row-3-col-2 img,
+  .row-3-col-3 h1,
+  .row-3-col-3 p,
+  .row-3-col-3 button {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+  .row-3-col-3 h1 {
+    font-size: 16px;
+    margin: 35px 0 0 10px;
+  }
+  .row-3-col-3 p {
+    font-size: 16px;
+  }
+  .row-3-col-3 button {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  /****** ROW 4 ******/
+  .row-4-col-2 {
+    height: 225px;
+  }
+  .row-4-col-2 h1 {
+    font-size: 26px;
+    margin: 50px 13px 0 0;
+  }
+  .row-4-col-3 img {
+    height: auto;
+  }
+  /****** ROW 5 ******/
+  .row-5-col-1 p {
+    font-size: 16px;
+    text-align: left;
+    margin: 35px 0 0 25px;
+  }
+  .row-5-col-1 p br {
+    display: none;
+  }
+  .row-5-col-1 button {
+    margin: 10px 0 0 25px;
+  }
+  .row-5-col-1 img {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+    margin: 60px 25px 0 auto;
+  }
+  .row-5-col-2 {
+    background-color: #bec3be;
+  }
+  .row-5-col-2 img {
+    width: 300px;
+    height: 460px;
+    display: block;
+    margin: -230px 25px 0 auto;
+  }
+  .row-5-col-1 p,
+  .row-5-col-1 img,
+  .row-5-col-2 img,
+  .row-5-col-3 h1,
+  .row-5-col-3 h5,
+  .row-5-col-3 p {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+  .row-5-col-3 h1 {
+    font-size: 32px;
+    margin: 25px auto 0 auto;
+  }
+  .row-5-col-3 h5 {
+    font-size: 16px;
+  }
+  .row-5-col-3 p {
+    font-size: 15px;
+  }
+  .row-5-col-3 p:last-child {
+    margin-bottom: 25px;
+  }
+  /****** ROW 6 ******/
+  .row-6-col-1 {
+    display: none;
+  }
+  .row-6-col-2 {
+    background-color: #212221;
+  }
+  .row-6-col-2 img {
+    width: 300px;
+    display: block;
+    margin: 50px 25px 0 auto;
+  }
+  .row-6-col-2 img,
+  .row-6-col-3 h1,
+  .row-6-col-3 h5,
+  .row-6-col-3 p,
+  .row-6-col-3 ul li {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+  }
+  .row-6-col-3 h1 {
+    font-size: 38px;
+    margin: 30px auto 0 auto;
+  }
+  .row-6-col-3 h5 {
+    font-size: 16px;
+    margin: 20px auto 0 auto;
+  }
+  .row-6-col-3 p {
+    font-size: 15px;
+    margin: 20px auto;
+  }
+  /****** FOOTER ******/
+  footer a {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   #rectangle,
-  #rectangle-2 {
+  #rectangle-2,
+  #rectangle-3,
+  #rectangle-4 {
     background-color: #44449b;
     width: 200px;
-    height: 3001px;
+    height: 2005px;
     position: absolute;
     margin-right: 72px;
     z-index: 1;
   }
   #rectangle-2 {
-    height: 2580px;
+    height: 938.98px;
+  }
+  #rectangle-3 {
+    height: 1632.08px;
+  }
+  #rectangle-4 {
+    height: 794.28px;
   }
   /****** ROW 1 ******/
   .row-1-col-2 {
@@ -319,8 +567,8 @@ nav ul li a {
   .row-2-col-1 h5,
   .row-2-col-1 p,
   .row-2-col-1 button {
-	position: relative;
-	z-index: 5;
+    position: relative;
+    z-index: 5;
   }
   .row-2-col-1 h1,
   .row-2-col-1 h5,
@@ -350,7 +598,7 @@ nav ul li a {
     left: 0;
     right: 0;
     bottom: 0;
-	z-index: 5;
+    z-index: 5;
   }
   .row-2-col-2 img {
     width: 450px;
@@ -452,10 +700,8 @@ nav ul li a {
     z-index: 5;
   }
   .row-5-col-3 h1 {
-    margin: 150px auto 0 auto;
-  }
-  .row-5-col-3 h1 {
     font-size: 36px;
+    margin: 150px auto 0 auto;
   }
   .row-5-col-3 h5 {
     font-size: 18px;
@@ -483,12 +729,12 @@ nav ul li a {
   .row-6-col-3 h5,
   .row-6-col-3 p,
   .row-6-col-3 ul li {
-	position: relative;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 5;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
   }
   .row-6-col-3 h1 {
     font-size: 38px;
@@ -501,6 +747,15 @@ nav ul li a {
   .row-6-col-3 p {
     font-size: 15px;
     margin: 20px auto;
+  }
+  /****** FOOTER ******/
+  footer a {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
   }
 }
 
